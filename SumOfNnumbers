@@ -1,0 +1,14 @@
+public class naturalNumbers{
+public static void main(String[] args) {
+                Scanner mg = new Scanner(System.in);
+                 System.out.println("Enter number ");
+                int  n=  mg.nextInt();
+                if(n <=0 )
+                {
+                    System.out.println("Enter positive  number ");
+                }
+                else {
+                    System.out.println(n*(n+1)/2);
+                }
+}
+  }
